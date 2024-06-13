@@ -1,0 +1,3 @@
+[class^="iconGroup"]:has([class^="hangStatusIcon"]) {
+  display: none;
+}
