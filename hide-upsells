@@ -1,0 +1,18 @@
+/* Hide Gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+
+/* Hide Shop tab */
+[aria-label="Direct Messages"] > li:has(
+  [href="/shop"]
+) {
+  display: none;
+}
+
+/* Hide Nitro tab */
+[aria-label="Direct Messages"] > li:has(
+  [href="/store"]
+) {
+  display: none;
+}
