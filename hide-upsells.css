@@ -16,3 +16,8 @@ button[aria-label="Send a gift"] {
 ) {
   display: none;
 }
+
+/* Hide app launcher next to message box */
+div [class^="channelAppLauncher"] {
+    display: none;
+}
