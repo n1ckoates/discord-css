@@ -18,6 +18,11 @@ button[aria-label="Send a gift"] {
 }
 
 /* Hide app launcher next to message box */
-div [class^="channelAppLauncher"] {
+div[class^="channelAppLauncher"] {
+    display: none;
+}
+
+/* Hide recent apps section at top of DMs */
+h2[class*="privateChannelsHeaderContainer_"]:first-of-type {
     display: none;
 }
