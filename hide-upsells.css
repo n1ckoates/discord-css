@@ -16,6 +16,11 @@ button[aria-label="Send a gift"] {
 ) {
   display: none;
 }
+[aria-label="Direct Messages"] > div:has(
+  [href="/store"]
+) {
+  display: none;
+}
 
 /* Hide app launcher next to message box */
 div[class^="channelAppLauncher"] {
