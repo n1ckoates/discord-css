@@ -28,6 +28,6 @@ div[class^="channelAppLauncher"] {
 }
 
 /* Hide recent apps section at top of DMs */
-h2[class*="privateChannelsHeaderContainer_"]:first-of-type {
+ul[aria-label="Direct Messages"] > div[class*="container_"]:has(h2[class*="privateChannelsHeaderContainer"]) {
     display: none;
 }
