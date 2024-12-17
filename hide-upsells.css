@@ -26,8 +26,3 @@ button[aria-label="Send a gift"] {
 div[class^="channelAppLauncher"] {
     display: none;
 }
-
-/* Hide recent apps section at top of DMs */
-ul[aria-label="Direct Messages"] > div[class*="container_"]:has(h2[class*="privateChannelsHeaderContainer"]) {
-    display: none;
-}
